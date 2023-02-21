@@ -1,0 +1,9 @@
+node_modules
+
+.idea
+.vscode
+*.log
+.DS_Store
+.history
+
+lib
