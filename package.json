@@ -1,19 +1,32 @@
 {
   "name": "asap-ui-cli",
-  "version": "1.0.5",
+  "version": "1.1.6",
   "description": "asap cli",
-  "main": "index.js",
+  "keywords": [
+    "asap",
+    "cli"
+  ],
+  "main": "lib/index.js",
+  "engines": {
+    "node": ">=14.0.0",
+    "type": "module"
+  },
+  "type": "module",
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsup"
   },
-  "bin": "index.js",
+  "bin": "lib/index.js",
   "author": "vike<1426732052@qq.com>",
   "license": "MIT",
   "dependencies": {
     "@types/node": "^18.14.0",
+    "commander": "^10.0.0",
+    "ejs": "^3.1.9",
     "tsup": "^6.6.3",
-    "typescript": "^4.9.5",
-    "yargs": "^17.7.0"
+    "typescript": "^4.9.5"
   }
 }
