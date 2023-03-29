@@ -1,6 +1,6 @@
 {
   "name": "asap-ui-cli",
-  "version": "1.1.8",
+  "version": "1.1.12",
   "description": "asap cli",
   "keywords": [
     "asap",
@@ -16,12 +16,14 @@
     "lib"
   ],
   "scripts": {
-    "build": "tsup"
+    "build": "tsup",
+    "test": "asap-ui-cli analysis"
   },
   "bin": "lib/index.js",
   "author": "vike<1426732052@qq.com>",
   "license": "MIT",
   "dependencies": {
+    "asap-ui-cli": "^1.1.12",
     "@types/node": "^18.14.0",
     "commander": "^10.0.0",
     "ejs": "^3.1.9",
